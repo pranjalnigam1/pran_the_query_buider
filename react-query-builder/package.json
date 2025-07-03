@@ -2,9 +2,9 @@
   "name": "pran-the-query-builder",
   "version": "1.0.0",
  "description": "My custom React Query Builder component",
-  "repository": {
+ "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/pranjalnigam1/pran_the_query_buider"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint ."
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": ["react", "query-builder", "filter", "rules"],
   "author": "",
