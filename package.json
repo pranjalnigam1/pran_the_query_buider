@@ -1,0 +1,28 @@
+{
+  "name": "react-query-builder",
+  "version": "1.0.0",
+  "description": "A flexible React Query Builder component with Tailwind and drag-and-drop support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "keywords": ["react", "query-builder", "filter", "rules"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "clsx": "^1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "tailwindcss": "^3.3.2",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14"
+  }
+}
