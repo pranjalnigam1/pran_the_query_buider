@@ -1,7 +1,11 @@
 {
-  "name": "react-query-builder",
+  "name": "pran-the-query-builder",
   "version": "1.0.0",
-  "description": "A flexible React Query Builder component with Tailwind and drag-and-drop support.",
+ "description": "My custom React Query Builder component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
