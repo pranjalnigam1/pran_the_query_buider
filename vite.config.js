@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: "src/index.ts",
+      entry: "src/index.js", // 👈 Changed from .ts to .js
       name: "ReactQueryBuilder",
       fileName: "index",
     },
