@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import RuleGroup from "./RuleGroup";
-import { RuleGroupType } from "../types";
 
-const QueryBuilder = ({ fields }: { fields: { label: string, value: string }[] }) => {
-  const [query, setQuery] = useState<RuleGroupType>({
+const QueryBuilder = ({ fields }) => {
+  const [query, setQuery] = useState({
     combinator: "and",
     rules: []
   });
@@ -15,7 +14,9 @@ const QueryBuilder = ({ fields }: { fields: { label: string, value: string }[] }
         fields={fields}
         onChange={setQuery}
       />
-      <pre className="mt-4 text-xs bg-gray-100 p-2 rounded">{JSON.stringify(query, null, 2)}</pre>
+      <pre className="mt-4 text-xs bg-gray-100 p-2 rounded">
+        {JSON.stringify(query, null, 2)}
+      </pre>
     </div>
   );
 };
